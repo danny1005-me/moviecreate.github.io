@@ -1,0 +1,132 @@
+.order{
+    position: flex;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 300px;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+    animation-name:jump ;
+    animation-duration: 3s;
+    
+    
+
+}
+.white{
+    display: flex;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 240px;
+    width: 290px;
+    height: auto;
+    background-color: rgba(3, 0, 0, 0.808);
+    border-radius: 20px;
+    animation: jump 2s;
+    
+}
+.black{
+    display: flex;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -230px;
+    width: 290px;
+    height: auto;
+    background-color: rgba(3, 0, 0, 0.808);
+    border-radius: 20px;
+    animation: jump 2s;
+    align-content: flex-end;
+}
+.clothes1{
+    scale: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top:-500px ;
+    margin-left: -300px;
+    margin-right: auto;
+    border-width: 10px;
+    border-color: white;
+    border-style:solid ;
+
+}
+.clothes2{
+    scale: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top:-300px ;
+    margin-left: -10px;
+    margin-right: auto;
+    border-width: 10px;
+    border-color: white;
+    border-style:solid ;
+
+}
+block{
+    background-color: white;
+    min-width: 100%;
+    height: 130px;
+    position: absolute;
+    align-items: start;
+    justify-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0%;
+}
+header{
+    position: fixed;
+    background-color: white;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-image: url(pngtree-black-marble-texture-background-highres-black-surface-macro-photo-image_3228537.jpg);
+    object-fit: cover;
+    display: block;
+    background-size: cover;   
+    z-index: 100;
+    
+}
+
+img{
+    margin-top: -95px;  
+    margin-left: -280px;
+    scale: 1.8;
+    display: flex;
+    align-items: start;
+    justify-self: start;
+
+
+}
+body{
+    background-color: aqua;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(pngtree-a-white-marble-with-gold-streaks-and-cracks-image_16802104.jpg);
+    background-size: cover;
+}
+@keyframes jump{
+    0%{
+        opacity: 0.0;
+    }
+    10%{
+        opacity: 0.7;
+    }
+    30%{
+        scale: 1.3;
+        opacity: 1.0;
+    }
+    100%{
+        scale: 1.0;
+    }
+}
